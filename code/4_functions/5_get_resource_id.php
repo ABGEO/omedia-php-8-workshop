@@ -14,6 +14,8 @@ $resource = fopen(__DIR__ . DIRECTORY_SEPARATOR . 'function_get_resource_id.php'
 $resourceId = (int) $resource;
 var_dump($resourceId);
 
+// VS
+
 $resourceId = get_resource_id($resource);
 var_dump($resourceId);
 

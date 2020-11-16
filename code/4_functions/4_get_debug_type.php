@@ -15,11 +15,12 @@ $foo = new Foo();
 $bar = 0;
 $baz = 0.1;
 
-var_dump(gettype($foo));        // "object"
+var_dump(gettype($foo)); // "object"
+var_dump(gettype($bar)); // "integer"
+var_dump(gettype($baz)); // "double"
+
+// VS
+
 var_dump(get_debug_type($foo)); // "Foo"
-
-var_dump(gettype($bar));        // "integer"
 var_dump(get_debug_type($bar)); // "int"
-
-var_dump(gettype($baz));        // "double"
 var_dump(get_debug_type($baz)); // "float"

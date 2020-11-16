@@ -17,15 +17,7 @@ class Foo
     }
 }
 
-class Bar extends Foo
-{
-    public function __toString(): string
-    {
-        return 'Hello from ' . __METHOD__;
-    }
-}
-
-class Baz {}
+class Bar {}
 
 function doEcho(string|Stringable $stringable): void
 {
@@ -35,4 +27,3 @@ function doEcho(string|Stringable $stringable): void
 doEcho("Hello");
 doEcho(new Foo());
 doEcho(new Bar());
-doEcho(new Baz());

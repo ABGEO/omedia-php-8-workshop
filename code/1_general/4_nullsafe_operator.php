@@ -16,6 +16,10 @@ class Order
 
 $order = new Order();
 
-$formattedReturnDate = $order->returnDate?->format('d/m/Y');
+$formattedReturnDate = $order->returnDate ? $order->returnDate->format('d/m/Y') : null;
+var_dump($formattedReturnDate);
 
+// VS
+
+$formattedReturnDate = $order->returnDate?->format('d/m/Y');
 var_dump($formattedReturnDate);

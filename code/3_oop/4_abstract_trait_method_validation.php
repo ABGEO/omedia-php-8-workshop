@@ -24,6 +24,8 @@ class Bar
     }
 }
 
+// VS
+
 class Bar
 {
     use Foo;
@@ -33,3 +35,5 @@ class Bar
         return $bar;
     }
 }
+
+$bar = new Bar();

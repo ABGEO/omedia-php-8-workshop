@@ -18,5 +18,7 @@ PHP;
 $tokens = token_get_all($code);
 var_dump($tokens);
 
-$tokens = PhpToken::getAll($code);
+// VS
+
+$tokens = PhpToken::tokenize($code);
 var_dump($tokens);

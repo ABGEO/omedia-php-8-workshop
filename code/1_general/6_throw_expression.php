@@ -17,7 +17,22 @@ $triggerError();
 
 // Throw exceptions with null coalescing operator
 
-function getItem(mixed $key): mixed {
+function getItem($key) {
+    $data = [
+        1 => 'Hello',
+        2 => 'World',
+    ];
+
+    if (!isset($data[$key])) {
+        throw new Exception("Invalid key '{$key}'!");
+    }
+
+    return $data[$key];
+}
+
+// VS
+
+function getItem($key) {
     $data = [
         1 => 'Hello',
         2 => 'World',
@@ -26,5 +41,5 @@ function getItem(mixed $key): mixed {
     return $data[$key] ?? throw new Exception("Invalid key '{$key}'!");
 }
 
-echo getItem(1);
-echo getItem(10);
+getItem(1);
+getItem(10);

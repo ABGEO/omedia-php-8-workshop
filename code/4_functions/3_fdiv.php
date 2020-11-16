@@ -11,3 +11,4 @@
 
 var_dump(fdiv(5, 2));
 var_dump(fdiv(5, 0));
+var_dump(fdiv(-5, 0));

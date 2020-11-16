@@ -11,4 +11,4 @@
 
 $a = $b = 2;
 
-echo 'Sum: ' . $a * $b . "\n";
+echo 'Sum: ' . $a + $b . "\n";

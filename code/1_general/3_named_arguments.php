@@ -23,4 +23,8 @@ function drawImage(
     // Some stuff for drawing an image ...
 }
 
+drawImage('img.png', null, null, 'Some image');
+
+// VS
+
 drawImage(src: 'img.png', alt: 'Some image');

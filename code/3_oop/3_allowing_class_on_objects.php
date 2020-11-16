@@ -14,4 +14,7 @@ class Foo {}
 $foo = new Foo();
 
 var_dump(get_class($foo));
+
+// VS
+
 var_dump($foo::class);
