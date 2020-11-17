@@ -9,7 +9,7 @@
  * Written by Temuri Takalandze <me@abgeo.dev>, November 2020
  */
 
-$resource = fopen(__DIR__ . DIRECTORY_SEPARATOR . 'function_get_resource_id.php', 'r');
+$resource = fopen(__DIR__ . DIRECTORY_SEPARATOR . '5_get_resource_id.php', 'r');
 
 $resourceId = (int) $resource;
 var_dump($resourceId);
