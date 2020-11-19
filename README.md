@@ -1,7 +1,7 @@
 # Introduction to PHP 8
 
 - **Place**: [Omedia](https://omedia.dev/)
-- **Time**: XX/11/2020 XX:XX
+- **Time**: 19/11/2020 17:00 (GMT+4) 
 - **Speaker**: [Temuri Takalandze](https://abgeo.dev/)
 
 ## Content
