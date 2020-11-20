@@ -3,6 +3,7 @@
 - **Place**: [Omedia](https://omedia.dev/)
 - **Time**: 19/11/2020 17:00 (GMT+4) 
 - **Speaker**: [Temuri Takalandze](https://abgeo.dev/)
+- **Watch**: https://youtu.be/opzZZ4opp4g
 
 ## Content
 
